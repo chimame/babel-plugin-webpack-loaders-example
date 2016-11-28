@@ -1,0 +1,14 @@
+exports[`toMatchSnapshot example render sample 1`] = `
+<ul
+  className="_2LiZgG84CcVl9AXOa1wZdC">
+  <li>
+    first element
+  </li>
+  <li>
+    second element
+  </li>
+  <li>
+    third
+  </li>
+</ul>
+`;
