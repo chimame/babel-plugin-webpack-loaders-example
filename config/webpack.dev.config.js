@@ -46,10 +46,5 @@ module.exports = {
     port: 4000,
     inline: true,
     historyApiFallback: true
-  },
-  externals: {
-    'Config': JSON.stringify({
-      thirdElementName: 'third'
-    })
   }
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './style'
-import Config from 'Config'
 
 export default () => {
   return(

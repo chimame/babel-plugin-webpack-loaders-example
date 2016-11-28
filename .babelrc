@@ -1,6 +1,11 @@
 {
   "presets": ["es2015", "react"],
   "env": {
+    "development": {
+      "plugins": [
+        ["transform-define", "config/app.dev.config.js"]
+      ]
+    },
     "test": {
       "plugins": [
         [
@@ -9,7 +14,8 @@
             "config": "config/webpack.test.config.js",
             "verbose": false
           }
-        ]
+        ],
+        ["transform-define", "config/app.dev.config.js"]
       ]
     }
   }
